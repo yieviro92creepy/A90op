@@ -1,0 +1,15 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+
+local Window = Library.CreateLib("A90 made by jejejeiak","Midnight")
+
+local Tab = Window:NewTab("Spawn A-90")
+
+local Section = Tab:NewSection("A-90")
+
+Section:NewLabel("jejejeiak v1")
+
+Section:NewButton("A90", "spawn A-90",function()
+
+local a = require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.RemoteListener.Modules["A90"])(require(game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game))()         
+
+end)
